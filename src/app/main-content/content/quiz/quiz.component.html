@@ -1,0 +1,61 @@
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h6 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
+          aria-controls="collapseOne">
+          Question #1
+        </a>
+      </h6>
+
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <div>
+          <p *ngIf="allData.length < 1 && !isLoading">No Data Record</p>
+          <ul class="list-group" *ngIf="allData.length >= 1 && !isLoading">
+            <li class="list-group-item" *ngFor="let data of allData">
+              <h3>{{data.title}} </h3>
+              <p>{{data.content}}</p>
+            </li>
+          </ul>
+          <p *ngIf="isLoading && !error">...still Loading</p>
+          <div class="alert alert-danger" role="alert" *ngIf="error">
+            <h4>A simple danger alert—check it out!</h4>
+            <p>{{error}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h6 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+          aria-controls="collapseTwo">
+          Question #2
+        </a>
+      </h6>
+
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+        richardson ad squid.</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h6 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+          aria-controls="collapseThree">
+          Question #3
+        </a>
+      </h6>
+
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+        richardson ad squid. </div>
+    </div>
+  </div>
+</div>

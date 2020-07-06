@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Test2Angular</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css">
+  <!-- css global -->
+  <link rel="stylesheet" href="assets/css/global.css">
+
+</head>
+
+<body>
+
+
+
+  <app-root></app-root>
+
+  <!-- /pagination -->
+  <div class="mt-60">
+    <ul class="pagination diferent">
+      <li class="page-item"><a class="page-link color-yellow" style="border: none" href="#">
+          <i class="fa fa-chevron-left"></i>
+        </a></li>
+      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-itemt"><a class="page-link color-yellow" style="border: none" href="#">
+          <i class="fa fa-chevron-right"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
+
+<style>
+  @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+  @font-face {
+    font-family: 'Centra';
+    font-style: normal;
+    font-weight: normal;
+    src: url('assets/fonts/Centra No2.woff2');
+  }
+
+  @font-face {
+    font-family: 'Centra';
+    font-weight: bold;
+    src: url('assets/fonts/Centra No2 Bold.woff2');
+  }
+
+  @font-face {
+    font-family: 'Centra';
+    font-weight: 500;
+    src: url('assets/fonts/Centra No2 Medium.woff2');
+  }
+
+  body {
+    font-family: 'Centra', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    padding: 70px 0;
+  }
+
+  .text-yellow-dark {
+    color: #FFAA00;
+  }
+
+  .text-green {
+    color: #00BF9F;
+  }
+
+  .jumbo {
+    background: #F3FAFC;
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  .list-group-flush .active {
+    background: none !important;
+    border-color: rgba(0, 0, 0, .125) !important;
+    color: #00BF9F;
+  }
+
+  .panel-title>a:before {
+    float: right !important;
+    font-family: FontAwesome;
+    content: "\f068";
+    padding-right: 5px;
+  }
+
+  .panel-title>a.collapsed:before {
+    float: right !important;
+    content: "\f067";
+  }
+
+  .panel-title {
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, .125) !important;
+    padding: 10px;
+    font-weight: normal;
+  }
+
+  .panel-title a {
+    color: #444444;
+  }
+
+  .panel-title>a:hover,
+  .panel-title>a:active,
+  .panel-title>a:focus {
+    text-decoration: none;
+    color: #FFAA00;
+  }
+
+  .panel-body {
+    padding: 10px;
+  }
+
+  .input-group .search {
+    border-radius: 100px 0 0 100px !important;
+    border-right: none;
+  }
+
+  .input-group .search:focus {
+    box-shadow: none;
+    border-bottom: 1px solid #FFAA00;
+    border-top: 1px solid #FFAA00;
+    border-left: 1px solid #FFAA00;
+  }
+
+  .input-group .input-group-append .input-group-text {
+    border-radius: 0 100px 100px 0 !important;
+    border-left: none !important;
+    background: none;
+  }
+
+  .input-group .input-group-append {
+    border-radius: 0 100px 100px 0 !important;
+    border-left: none !important;
+    background: none;
+  }
+
+  @media (max-width: 576px) {
+
+    .jumbo i {
+      font-size: 50px;
+    }
+
+  }
+
+</style>

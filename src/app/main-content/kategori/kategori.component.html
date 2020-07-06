@@ -1,0 +1,23 @@
+
+<div class="rounded shadow-sm p-3">
+<div class="list-group list-group-flush">
+    <a href="#" class="list-group-item list-group-item-action " 
+    routerLink="/Quiz"
+    (click)="getNameTab('Quiz')" [class.active]="activeTab==='Quiz'"
+    >
+    Quiz
+    </a>
+    <a href="#" class="list-group-item list-group-item-action"
+    routerLink="/Mitra"
+    (click)="getNameTab('Mitra')" [class.active]="activeTab==='Mitra'"
+    >Mitra</a>
+    <a href="#" class="list-group-item list-group-item-action"
+    routerLink="/Milipoin"
+(click)="getNameTab('Milipoin')" [class.active]="activeTab==='Milipoin'"
+    >Milipoin</a>
+    <a href="#" class="list-group-item list-group-item-action"
+    routerLink="/Tukar-Hadiah"
+    (click)="getNameTab('Tukar-Hadiah')" [class.active]="activeTab==='Tukar-Hadiah'"
+    >Tukar Hadiah</a>
+</div>
+</div>

@@ -1,0 +1,200 @@
+/* You can add global styles to this file, and also import other style files */
+.mb-18 {
+  margin-bottom: 18px;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.py-15 {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.p-30 {
+  padding: 30px
+}
+
+.py-20 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.pt-15 {
+  padding-top: 15px
+}
+
+.list-style-none {
+  padding-left: 0;
+  list-style: none;
+}
+
+.rounded-img {
+  border-radius: 50%;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.fw-med {
+  font-weight: 500;
+}
+
+.color-gray {
+  color: #C3C3C3;
+}
+
+.color-lgray {
+  color: #A7A7A7;
+}
+
+.color-yellow {
+  color: #FFC900 !important;
+}
+
+.color-green {
+  color: #3A9FA7;
+}
+
+.color-lgreen {
+  color: #00BF9F !important;
+}
+
+.color-white {
+  color: white;
+}
+
+.rounded-xl {
+  border-radius: 8px;
+}
+
+.pagination.diferent {
+  margin-top: -30px;
+  margin-bottom: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.page-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 0;
+  color: #444444;
+  background: white;
+  font-weight: bold;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 14px;
+  transition: all 0.2s linear;
+  
+}
+
+.page-link:hover {
+  background: #FFC900;
+  color: white !important;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.pagination.diferent .active .page-link {
+  background: #FFC900;
+  color: white;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.page-item.diferent .active .page-link {
+  background: #FFC900;
+  color: white;
+  box-shadow: 0px 3px 6px #00000029;
+
+      
+}
